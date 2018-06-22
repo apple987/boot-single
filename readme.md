@@ -3,7 +3,7 @@
 #### 项目介绍
 boot-single基于SpringBoot2.0.2版本，集成项目中常用的功能点。默认配置下，用户仅需要自己配置单机mysql和redis组件，就可以快速启动项目。<br>
 
-#### [在线演示](http://106.12.30.85)  &nbsp;[集群版本](https://gitee.com/bootstrap2table/boot_master)   &nbsp;[分布式事务](https://gitee.com/bootstrap2table/boot_master/tree/feature/jta/druid)  &nbsp;[SpringCloud](https://gitee.com/bootstrap2table/spring-cloud)   &nbsp;[Dubbo](https://gitee.com/bootstrap2table/api-master)
+#### [在线演示](http://106.12.30.85)  &nbsp;[集群版本](https://gitee.com/bootstrap2table/boot_master)   &nbsp;[分布式事务](https://gitee.com/bootstrap2table/boot_master/tree/feature/jta/druid)  &nbsp;[SpringCloud](https://gitee.com/bootstrap2table/spring-cloud)
 
 #### 技术选型
     ● 系统核心框架：SpringBoot
