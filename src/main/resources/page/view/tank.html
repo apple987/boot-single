@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="zh" class="no-js demo-1">
+<head>
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>欢迎页</title>
+<link rel="Shortcut Icon" href="${request.contextPath}/page/static/images/logo.ico" type="image/x-icon"/>
+<script src="${request.contextPath}/page/static/plugins/tankwar/js/jquery.min.js"></script>
+<script src="${request.contextPath}/page/static/plugins/tankwar/js/init.js"></script>
+<script src="${request.contextPath}/page/static/plugins/tankwar/js/Helper.js"></script>
+<script src="${request.contextPath}/page/static/plugins/tankwar/js/keyboard.js"></script>
+<script src="${request.contextPath}/page/static/plugins/tankwar/js/const.js"></script>
+<script src="${request.contextPath}/page/static/plugins/tankwar/js/level.js"></script>
+<script src="${request.contextPath}/page/static/plugins/tankwar/js/crackAnimation.js"></script>
+<script src="${request.contextPath}/page/static/plugins/tankwar/js/prop.js"></script>
+<script src="${request.contextPath}/page/static/plugins/tankwar/js/bullet.js"></script>
+<script src="${request.contextPath}/page/static/plugins/tankwar/js/tank.js"></script>
+<script src="${request.contextPath}/page/static/plugins/tankwar/js/num.js"></script>
+<script src="${request.contextPath}/page/static/plugins/tankwar/js/menu.js"></script>
+<script src="${request.contextPath}/page/static/plugins/tankwar/js/map.js"></script>
+<script src="${request.contextPath}/page/static/plugins/tankwar/js/Collision.js"></script>
+<script src="${request.contextPath}/page/static/plugins/tankwar/js/stage.js"></script>
+<script src="${request.contextPath}/page/static/plugins/tankwar/js/main.js"></script>
+<style type="text/css">
+	#canvasDiv canvas {
+		position: absolute;
+	}
+	
+	.area {
+		height: auto;
+		border: 0;
+		margin: auto;
+	}
+	
+	.rightarea {
+		float: left;
+		width: 50%;
+		height: 500px;
+	}
+	
+	.leftarea {
+		float: left;
+		width: 50%;
+		height: 500px;
+	}
+	a{text-decoration:none}
+</style>
+</head>
+<body>
+	<div class="area">
+	    <h3>
+			  BOOT-MASTER是一个优秀的脚手架项目,它结构合理、注释清晰，功能丰富，下面提供一款简单坦克大战游戏，在您的学习之余，可以征战沙场！
+		</h3>
+	    <div class="leftarea">
+	       <h4>
+				操作说明：
+				<ul>
+					<li>玩家1：WASD上左下右，SPACE射击；</li>
+					<li>玩家2：方向键，ENTER射击。N下一关，P上一关。</li>
+				</ul>
+			</h4>  
+	       <div class="main clearfix">
+			<div id="canvasDiv">
+				<canvas id="wallCanvas"></canvas>
+				<canvas id="tankCanvas"></canvas>
+				<canvas id="grassCanvas"></canvas>
+				<canvas id="overCanvas"></canvas>
+				<canvas id="stageCanvas"></canvas>
+			</div>
+		   </div>
+	    </div>
+	    <div class="rightarea">  
+	          <h4>
+				   功能概述：&nbsp;&nbsp;&nbsp;&nbsp;<a href='https://gitee.com/bootstrap2table/boot_master'><img src='https://gitee.com/bootstrap2table/boot_master/widgets/widget_6.svg' alt='Fork me on Gitee'></img></a>
+				<ul>
+					<li><a href="${request.contextPath}/student/freemarker" target="_blank">结合Freemaker语法，简单的演示使用</a></li><br>
+					<li><a href="${request.contextPath}/toZxingQrcode" target="_blank">结合Qrcode工具，简单演示生成二维码</a></li><br>
+					<li><a href="${request.contextPath}/druid" target="_blank">结合Druid资料，演示Druid的系统监控</a></li><br>
+					<li><a href="${request.contextPath}/monitoring" target="_blank">结合JavaMelody，&nbsp;详细展示系统的监控</a></li><br>
+					<li><a href="${request.contextPath}/swagger-ui.html" target="_blank">结合Swagger2，采用原生Swagger显示</a></li><br>
+					<li><a href="${request.contextPath}/doc.html" target="_blank">结合Swagger2，用BootStrap显示文档</a></li><br>
+					<li><a href="${request.contextPath}/student/formatCode" target="_blank">结合Vkbeautify插件，JSON数据格式化</a></li><br>
+					<li><a href="${request.contextPath}/student/exportCsv" target="_blank">结合ApacheCommons工具，导出CSV</a></li><br>
+					<li><a href="${request.contextPath}/student/exportPoiExcel" target="_blank">结合POI工具包，多sheet导出Excel数据</a></li><br>
+					<li><a href="${request.contextPath}/staff/init" target="_blank">结合Validate插件，上传图片数据库显示</a></li><br>
+					<li><a href="${request.contextPath}/solr/init" target="_blank">结合Solr工具，转移数据库数据到Solr库</a></li><br>
+					<li><a href="${request.contextPath}/student/init" target="_blank">系统更多的其他功能点，请点击这里演示</a></li><br>
+				</ul>
+			</h4> 
+	    </div>    
+	</div>
+	<!-- /container -->
+</body>
+</html>
